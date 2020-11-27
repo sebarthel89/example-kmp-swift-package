@@ -1,1 +1,11 @@
-# example-kmp-swift-package
+# Kotlin multiplatform project example with swift package manager deployment
+
+## Build targets
+
+```
+./gradlew clean build
+```
+
+Afterwards, IOS frameworks are located in:
+
+- `./build/bin/`
