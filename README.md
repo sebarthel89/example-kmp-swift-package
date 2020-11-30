@@ -8,7 +8,18 @@
 
 Afterwards, IOS frameworks are located in:
 
-- `./build/bin/`
+- `./build/bin/iosArm64`
+- `./build/bin/iosX64`
+
+To build a fat framework you can:
+```
+universalFrameworkRelease
+```
+
+Afterwards, the fat (simulator + ios) framework is located in:
+
+- `./build/bin/universal`
+
 
 Build a swift package:
 
